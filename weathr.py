@@ -22,30 +22,30 @@ class WeatherApp(QWidget):
         # City Input (Bigger Size)
         self.city_input = QLineEdit(self)
         self.city_input.setPlaceholderText("Enter City Name")
-        self.city_input.setStyleSheet("font-size: 18px; padding: 10px;")  # Bigger text field
+        self.city_input.setStyleSheet("font-size: 22px; padding: 10px;")  # Bigger text field
         self.layout.addWidget(self.city_input)
 
         # Fetch Button
         self.fetch_button = QPushButton("Get Weather", self)
-        self.fetch_button.setStyleSheet("font-size: 16px; padding: 10px;")  # Bigger button
+        self.fetch_button.setStyleSheet("font-size: 22px; padding: 10px;")  # Bigger button
         self.fetch_button.clicked.connect(self.get_weather)
         self.layout.addWidget(self.fetch_button)
 
         # Weather Display
         self.weather_label = QLabel("Weather info will appear here", self)
-        self.weather_label.setStyleSheet("font-size: 16px;")
+        self.weather_label.setStyleSheet("font-size: 20px;")
         self.layout.addWidget(self.weather_label)
 
         self.temp_label = QLabel("Temperature: ", self)
-        self.temp_label.setStyleSheet("font-size: 14px;")
+        self.temp_label.setStyleSheet("font-size: 20px;")
         self.layout.addWidget(self.temp_label)
 
         self.humidity_label = QLabel("Humidity: ", self)
-        self.humidity_label.setStyleSheet("font-size: 14px;")
+        self.humidity_label.setStyleSheet("font-size: 20px;")
         self.layout.addWidget(self.humidity_label)
 
         self.wind_label = QLabel("Wind Speed: ", self)
-        self.wind_label.setStyleSheet("font-size: 14px;")
+        self.wind_label.setStyleSheet("font-size: 20px;")
         self.layout.addWidget(self.wind_label)
 
         # Weather Icon
@@ -54,7 +54,7 @@ class WeatherApp(QWidget):
 
         # Forecast Display
         self.forecast_label = QLabel("5-Day Forecast:", self)
-        self.forecast_label.setStyleSheet("font-size: 14px;")
+        self.forecast_label.setStyleSheet("font-size: 20px;")
         self.layout.addWidget(self.forecast_label)
 
         # Larger Map View
