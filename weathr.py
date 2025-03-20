@@ -13,6 +13,7 @@ FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast"
 class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
+        self.setStyleSheet("background-color: #1C77C3;")
         self.setWindowTitle("Weather App")
         self.setGeometry(200, 200, 600, 800)  # Increased window size
 
@@ -22,12 +23,12 @@ class WeatherApp(QWidget):
         # City Input (Bigger Size)
         self.city_input = QLineEdit(self)
         self.city_input.setPlaceholderText("Enter City Name")
-        self.city_input.setStyleSheet("font-size: 22px; padding: 10px;")  # Bigger text field
+        self.city_input.setStyleSheet("font-size: 22px; padding: 10px; background-color: #39A9DB; border-radius: 5px; color: white;")
         self.layout.addWidget(self.city_input)
 
         # Fetch Button
         self.fetch_button = QPushButton("Get Weather", self)
-        self.fetch_button.setStyleSheet("font-size: 22px; padding: 10px;")  # Bigger button
+        self.fetch_button.setStyleSheet("font-size: 22px; padding: 10px; background-color: #40BCD8; border-radius: 5px; color: white;")  # Bigger button
         self.fetch_button.clicked.connect(self.get_weather)
         self.layout.addWidget(self.fetch_button)
 
