@@ -3,10 +3,8 @@
 SkyScope is a **modern, minimalistic, and feature-rich** weather application built with **Python (PyQt6)**. It provides real-time weather updates, a **5-day forecast**, and an interactive map view to visualize weather conditions. 🌍
 
 ## 📸 Screenshots  
-*(Add your screenshots here)*  
-![Uploading image.png…]()
-  
-![Screenshot 2](screenshots/screenshot2.png)  
+*(Add your screenshots here)* 
+![Screenshot 2](screenshots/weather2.png)  
 
 ---
 
