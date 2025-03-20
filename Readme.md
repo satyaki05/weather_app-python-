@@ -4,7 +4,8 @@ SkyScope is a **modern, minimalistic, and feature-rich** weather application bui
 
 ## 📸 Screenshots  
 *(Add your screenshots here)*  
-![Screenshot 1](screenshots/screenshot1.png)  
+![Uploading image.png…]()
+  
 ![Screenshot 2](screenshots/screenshot2.png)  
 
 ---
